@@ -1,0 +1,176 @@
+/* General styling for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+/* Navigation bar */
+.top-nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav ul li {
+    display: inline;
+    margin-right: 1.5rem;
+}
+
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the main header */
+.main-header {
+    background: linear-gradient(45deg, #6a5acd, #48d1cc);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.main-header h1 {
+    font-size: 3rem;
+}
+
+.main-header p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+/* Search bar */
+.header-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button {
+    background-color: #ff6347;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #ee5f43;
+}
+
+.cta-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+}
+
+/* Button container for the topics section */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.nav-button {
+    background-color: #20b2aa;
+    border: none;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #1e998e;
+}
+
+.nav-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section styling */
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 1.5rem;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f8ff;
+}
+
+.info-button {
+    background-color: #ff6347;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-button:hover {
+    background-color: #ee5f43;
+}
+
+.info-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
